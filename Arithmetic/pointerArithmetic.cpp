@@ -22,11 +22,10 @@ int main() {
         string* pEnd = &texts[NSTRINGS-1];
         pTexts = &texts[0];
 
-        while(pText != pEnd) {
+        while(pTexts != pEnd) {
           cout << *pTexts << '\n';
-          pTexts++
+          pTexts++;
         }
-
 
         return 0;
 }
