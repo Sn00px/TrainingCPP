@@ -27,6 +27,6 @@ int main() {
           pTexts++
         }
 
-        
+
         return 0;
 }
