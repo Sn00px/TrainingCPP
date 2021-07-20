@@ -5,19 +5,19 @@ using namespace std;
 
 int main() {
 
-  string name = "Bob";
-  int age = 32;
+        string name = "Bob";
+        int age = 32;
 
-  stringstream ss;
+        stringstream ss;
 
-  ss << "Name is ";
-  ss << name;
-  ss << ". Age is ";
-  ss << age;
+        ss << "Name is ";
+        ss << name;
+        ss << ". Age is ";
+        ss << age;
 
-  //string info = "Name: " + name + "; age: " + age;
+        //string info = "Name: " + name + "; age: " + age;
 
-  cout << ss.str() << endl;
+        cout << ss.str() << endl;
 
-  return 0;
+        return 0;
 }
